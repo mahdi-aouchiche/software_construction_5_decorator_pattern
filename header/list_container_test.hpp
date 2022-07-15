@@ -135,7 +135,7 @@ TEST(ListContainerTest, ListSwapValues_end){
 
     //check elements in equation
     EXPECT_EQ(conta->at(6)->stringify(), "3.140000 + 18.000000" );
-	EXPECT_EQ(conta->at(5)->stringify(), "(8.000000 + 4.000000) * (3.140000 + 18.000000)");
+	EXPECT_EQ(conta->at(5)->stringify(), "8.000000 + 4.000000 * 3.140000 + 18.000000");
 }
 
 TEST(ListContainerTest, AtFunction){
