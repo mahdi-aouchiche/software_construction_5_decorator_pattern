@@ -1,18 +1,7 @@
 #ifndef __MAIN_LAB3_CPP
 #define __MAIN_LAB3_CPP
 
-#include <iostream>
-#include "../header/base.hpp"
-#include "../header/op.hpp"
-#include "../header/mult.hpp"
-#include "../header/div.hpp"
-#include "../header/add.hpp"
-#include "../header/sub.hpp"
-#include "../header/pow.hpp"
-#include "../header/rand.hpp"
-
-using namespace std;
-
+#include "../header/headers.hpp"
 
 int main() {
    /* create a few trees to see if classes are */ 

@@ -1,19 +1,7 @@
-#include <iostream>
-#include "../header/base.hpp"
-#include "../header/op.hpp"
-#include "../header/mult.hpp"
-#include "../header/div.hpp"
-#include "../header/add.hpp"
-#include "../header/sub.hpp"
-#include "../header/pow.hpp"
-#include "../header/rand.hpp"
-#include "../header/container.hpp"
-#include "../header/sort.hpp"
-#include "../header/list_container.hpp"
-#include "../header/vector_container.hpp"
-#include "../header/bubble_sort.hpp"
-#include "../header/selection_sort.hpp"
-using namespace std;
+#ifndef __MAIN_LAB4_CPP
+#define __MAIN_LAB4_CPP
+
+#include "../header/headers.hpp"
 
 int main() {
     Base* three = new Op(3);
@@ -53,3 +41,5 @@ int main() {
 
     return 0;
 }
+
+#endif  // __MAIN_LAB4_CPP
